@@ -207,7 +207,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7294715539216419479, guid: f3712f7b4abe26542b7533d5fb1c3be7, type: 3}
+      - m_Target: {fileID: 998752192460151159, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
         m_TargetAssemblyTypeName: QuizScore, Assembly-CSharp
         m_MethodName: ChooseIncorrect
         m_Mode: 1
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7294715539216419479, guid: f3712f7b4abe26542b7533d5fb1c3be7, type: 3}
+      - m_Target: {fileID: 998752192460151159, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
         m_TargetAssemblyTypeName: QuizScore, Assembly-CSharp
         m_MethodName: ChooseCorrect
         m_Mode: 1
@@ -924,7 +924,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2170019477438561758, guid: b34af50b66ce73640ab5380f3e5c899f, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2170019477438561758, guid: b34af50b66ce73640ab5380f3e5c899f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1099,7 +1099,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4928644308789214484, guid: c6d6a98e722aed34c905ac4c9f821215, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4928644308789214484, guid: c6d6a98e722aed34c905ac4c9f821215, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1611,7 +1611,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7294715539216419479, guid: f3712f7b4abe26542b7533d5fb1c3be7, type: 3}
+      - m_Target: {fileID: 998752192460151159, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
         m_TargetAssemblyTypeName: QuizScore, Assembly-CSharp
         m_MethodName: ChooseIncorrect
         m_Mode: 1
@@ -1745,7 +1745,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7294715539216419479, guid: f3712f7b4abe26542b7533d5fb1c3be7, type: 3}
+      - m_Target: {fileID: 998752192460151159, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
         m_TargetAssemblyTypeName: QuizScore, Assembly-CSharp
         m_MethodName: ChooseIncorrect
         m_Mode: 1
@@ -1981,60 +1981,80 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1986353490
+--- !u!1001 &6947854071160885258
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1648879751524294985, guid: f3712f7b4abe26542b7533d5fb1c3be7, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
+    - target: {fileID: 4272995408566420294, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
+      propertyPath: m_Name
+      value: QuizScore
       objectReference: {fileID: 0}
-    - target: {fileID: 1648879751524294985, guid: f3712f7b4abe26542b7533d5fb1c3be7, type: 3}
+    - target: {fileID: 6839635312564301111, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839635312564301111, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1648879751524294985, guid: f3712f7b4abe26542b7533d5fb1c3be7, type: 3}
+    - target: {fileID: 6839635312564301111, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1648879751524294985, guid: f3712f7b4abe26542b7533d5fb1c3be7, type: 3}
+    - target: {fileID: 6839635312564301111, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1648879751524294985, guid: f3712f7b4abe26542b7533d5fb1c3be7, type: 3}
+    - target: {fileID: 6839635312564301111, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1648879751524294985, guid: f3712f7b4abe26542b7533d5fb1c3be7, type: 3}
+    - target: {fileID: 6839635312564301111, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1648879751524294985, guid: f3712f7b4abe26542b7533d5fb1c3be7, type: 3}
+    - target: {fileID: 6839635312564301111, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1648879751524294985, guid: f3712f7b4abe26542b7533d5fb1c3be7, type: 3}
+    - target: {fileID: 6839635312564301111, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1648879751524294985, guid: f3712f7b4abe26542b7533d5fb1c3be7, type: 3}
+    - target: {fileID: 6839635312564301111, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1648879751524294985, guid: f3712f7b4abe26542b7533d5fb1c3be7, type: 3}
+    - target: {fileID: 6839635312564301111, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1648879751524294985, guid: f3712f7b4abe26542b7533d5fb1c3be7, type: 3}
+    - target: {fileID: 6839635312564301111, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2032364734907414212, guid: f3712f7b4abe26542b7533d5fb1c3be7, type: 3}
-      propertyPath: m_Name
-      value: Quiz Score
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f3712f7b4abe26542b7533d5fb1c3be7, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
+--- !u!1 &6947854071160885259 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4272995408566420294, guid: ee5c433d623cd854483fda9c4243bde7, type: 3}
+  m_PrefabInstance: {fileID: 6947854071160885258}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6947854071160885260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6947854071160885259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c72f61ef34f7807478f6823e91311477, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 0}
+  message: {fileID: 0}
+  points: 0

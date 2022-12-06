@@ -44,14 +44,12 @@ public class QuizScore : MonoBehaviour
     public void ChooseCorrect()
     {
         points += 1;
-        Refresh();
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.buildIndex + 1);
     }
 
     public void ChooseIncorrect()
     {
-        Refresh();
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.buildIndex + 1);
     }
