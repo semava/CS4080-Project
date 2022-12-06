@@ -5,23 +5,30 @@ using UnityEngine.UI;
 
 
     
-public class Trigger : MonoBehaviour
+public abstract class Trigger : MonoBehaviour
 {
 
-    public bool Triger;
+    public bool t;
+    public string s = "default";
+
 
 
 
     void OnTriggerEnter2D(Collider2D col)
     {
 
-        Triger = true;
+        t = true;
     }
 
 
+    void OnTriggerStay2D(Collider2D col)
+    {
+        t = true;
+    }
+
     void OnTriggerExit2D(Collider2D col)
     {
-        Triger = false;
+        t = false;
     }
 
     
