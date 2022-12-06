@@ -29,6 +29,6 @@ public class UIManager : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
-        UnityEditor.EditorApplication.isPlaying = false; // allows quit functionality in editor mode
+        //UnityEditor.EditorApplication.isPlaying = false; // allows quit functionality in editor mode
     }
 }
