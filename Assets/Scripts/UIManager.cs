@@ -21,6 +21,11 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public void GoToClass() // temporary function while fixes are being made
+    {
+        SceneManager.LoadScene("QuizQuestion1");
+    }
+
     public void StartGame()
     {
         SceneManager.LoadScene("SampleScene");
