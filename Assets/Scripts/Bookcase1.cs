@@ -8,7 +8,7 @@ public class Bookcase1 : Trigger
   
     void Awake()
     {
-        s = "bookcase 1";
+        s = "All the books on this shelf are about Python,<br>you should have studied more...";
     }
 }
  

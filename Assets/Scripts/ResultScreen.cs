@@ -1,17 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+using TMPro;
 
-public class QuizScore : MonoBehaviour
+public class ResultScreen : MonoBehaviour
 {
-    
-    public Text score, message;
+    public TextMeshProUGUI score;
+    public TextMeshProUGUI message;
     public const int MAX_POINTS = 6;
 
-
+    // Start is called before the first frame update
     void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
     {
         Refresh();
     }
@@ -25,20 +30,5 @@ public class QuizScore : MonoBehaviour
             message.text = "You passed. Good job!";
         else
             message.text = "Perfect score! You did amazing!";
-    }
-
-    public void ChooseCorrect()
-    {
-        Score.Instance.points += 1;
-        Refresh();
-        Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.buildIndex + 1);
-    }
-
-    public void ChooseIncorrect()
-    {
-        Refresh();
-        Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.buildIndex + 1);
     }
 }

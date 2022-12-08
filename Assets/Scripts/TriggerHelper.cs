@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class TriggerHelper : MonoBehaviour
 {
@@ -35,8 +36,16 @@ public class TriggerHelper : MonoBehaviour
             return false;
         }) && clickCount > 0)
         {
-            image.enabled = true;
-            text.text = s;
+            switch(s)
+            {
+                case "scene": 
+                    SceneManager.LoadScene("QuizQuestion1");
+                break;
+                default: 
+                    image.enabled = true;
+                    text.text = s;
+                break;
+            }
         }
         else
         {
