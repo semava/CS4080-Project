@@ -7,7 +7,7 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
 
-    // create singleton to ensure only one of these exists at one time
+    // singleton pattern
     void Awake()
     {
         if (instance == null)
@@ -21,6 +21,11 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public void GoToClass() // temporary function while fixes are being made
+    {
+        SceneManager.LoadScene("QuizQuestion1");
+    }
+
     public void StartGame()
     {
         SceneManager.LoadScene("SampleScene");
@@ -29,6 +34,6 @@ public class UIManager : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
-        //UnityEditor.EditorApplication.isPlaying = false; // allows quit functionality in editor mode
+        UnityEditor.EditorApplication.isPlaying = false; // allow quit functionality when editing
     }
 }
